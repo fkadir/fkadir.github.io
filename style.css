@@ -234,7 +234,7 @@ nav .menu-items li {
   grid-template-rows: 8.7% 9.15% repeat(2, 14.2%) repeat(4, 6.49%) 7.29% 5.59%;}
 
 .IMAGES img {object-fit: contain; padding: 2% 0;}
-.IMAGES {height: fit-content; overflow: hidden;}
+.IMAGES {height: auto; overflow: hidden;}
 
 .about {display: inline;}
 .about img {width: 45%; height: 45%; float: left;}
