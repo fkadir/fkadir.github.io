@@ -40,15 +40,19 @@
         </div>
         <div class="contact">
           <h2> Contact </h2>
-          <form name="contactform" action="mailto:fennakadir@gmail.com" method="post">
+            <form name="contactform" method="post" action='https://formsubmit.co/fkhkadir@gmail.com'>
+            <input type="hidden" name="_subject" value="New submission!">
+            <!-- Thank you page -->
+            <input type="hidden" name="_next" value="thankyou.html">
+
             <label for="name">Name</label>
-            <input type="text" id="name" name="name" placeholder="Your name..">
+            <input type="text" id="name" name="name" placeholder="Your name.." required>
 
             <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="Your email..">
+            <input type="email" id="email" name="email" placeholder="Your email.." required>
 
             <label for="phone">Phone Number</label>
-            <input type="text" id="phone" name="phone" placeholder="Your phone number..">
+            <input type="text" id="phone" name="phone" placeholder="Your phone number.." required>
 
             <label for="date">Date Desired </label>
             <input type="text" id="date" name="date" placeholder="Your desired date..">
