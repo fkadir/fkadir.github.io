@@ -229,7 +229,7 @@ nav .menu-items li {
 }
 /*end of reference*/
 
-/* media queries */
+/* media queries 
 @media (min-width: 400px) {
 .grid-container {
   display: grid;
@@ -259,3 +259,4 @@ nav .menu-items {
 .about img {width: 30%; height: 30%;}
 
 }
+*/
